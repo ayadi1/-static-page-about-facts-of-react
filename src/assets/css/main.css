@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+/* header style */
+.header {
+  background-color: #21222a;
+  padding: 10px 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo > h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  color: #61dafb;
+}
+
+.nav-links {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  align-self: center;
+}
+/* main style */
+.main {
+  background-color: #282D35;
+  height: 100vh;
+  padding: 20px;
+  background-image: url('../images/Group.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x:100% ;
+}
+.main > h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+.main > ul {
+  list-style-image: url("../images/Ellipse.png");
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main > ul > li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
